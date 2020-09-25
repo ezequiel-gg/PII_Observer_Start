@@ -1,6 +1,6 @@
 namespace Observer
 {
-    public interface IObserver
+    public interface IObserver<T>
     {
         void Update();
     }
